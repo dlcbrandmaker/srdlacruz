@@ -1,0 +1,43 @@
+:root {
+  --color-deep-black: #0A0A0A;
+  --color-graphite: #1F1F1F;
+  --color-soft-gray: #A0A0A0;
+  --color-light-gray: #E8EEF3;
+  --color-white: #FFFFFF;
+  --color-deep-blue: #002E5D;
+  --color-signature-blue: #0067B1;
+  --color-electric-blue: #0072FF;
+  --color-brand-red: #E9143A;
+  --color-dark-navy: #001A33;
+  --font-display: "Montserrat", "Poppins", system-ui, sans-serif;
+  --font-body: "Inter", "Montserrat", system-ui, sans-serif;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-soft: 0 8px 24px rgba(0,0,0,.16);
+  --shadow-blue-glow: 0 0 24px rgba(0,114,255,.28);
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-deep-black);
+  font-family: var(--font-body);
+}
+
+.srdlacruz-dark {
+  background: linear-gradient(135deg, var(--color-deep-black), var(--color-dark-navy));
+  color: var(--color-white);
+}
+
+.srdlacruz-cta {
+  background: var(--color-electric-blue);
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-blue-glow);
+}

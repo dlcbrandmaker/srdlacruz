@@ -1,0 +1,49 @@
+{
+  "brand": "sr.dlacruz",
+  "colors": {
+    "deep_black": "#0A0A0A",
+    "graphite": "#1F1F1F",
+    "soft_gray": "#A0A0A0",
+    "light_gray": "#E8EEF3",
+    "white": "#FFFFFF",
+    "deep_blue": "#002E5D",
+    "signature_blue": "#0067B1",
+    "electric_blue": "#0072FF",
+    "brand_red": "#E9143A",
+    "dark_navy": "#001A33",
+    "institutional_white": "#F7FAFC"
+  },
+  "typography": {
+    "display": [
+      "Montserrat ExtraBold",
+      "Poppins ExtraBold",
+      "League Spartan"
+    ],
+    "body": [
+      "Inter",
+      "Montserrat",
+      "Roboto"
+    ],
+    "signature": "Usar solo logo/firma original; no recrear con fuente genérica."
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48,
+    "section": 72
+  },
+  "radius": {
+    "sm": 6,
+    "md": 12,
+    "lg": 20,
+    "pill": 999
+  },
+  "shadows": {
+    "soft": "0 8px 24px rgba(0,0,0,.16)",
+    "blue_glow": "0 0 24px rgba(0,114,255,.28)",
+    "red_glow": "0 0 20px rgba(233,20,58,.24)"
+  }
+}
